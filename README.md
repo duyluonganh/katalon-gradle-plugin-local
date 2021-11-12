@@ -1,0 +1,1 @@
+# katalon-gradle-plugin-local
