@@ -22,3 +22,5 @@ plugins {
 apply plugin: com.katalon.gradle.plugin.KatalonGradlePlugin
 ``` 
 
+### Log4Shell concern
+This project has included the [internal build](https://github.com/duyluonganh/shadow) for shadow project to resolve Log4Shell issue.
