@@ -11,7 +11,7 @@ This is an Katalon Studio sample project to use [katalon gradle plugin](https://
 buildscript {
     dependencies{
         classpath files('jars/katalon-gradle-plugin-0.0.7.jar')
-        classpath files('jars/shadow-4.0.4.jar')
+        classpath files('jars/shadow-6.1.0-fix-log4shell.jar')
     }
 }
 
@@ -21,3 +21,4 @@ plugins {
 
 apply plugin: com.katalon.gradle.plugin.KatalonGradlePlugin
 ``` 
+
